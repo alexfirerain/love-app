@@ -1,0 +1,68 @@
+POST http://localhost:7777/plainlove
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you"
+}
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you"
+}
+
+<> 2022-07-25T154342.200.json
+
+###
+
+POST http://localhost:7777/plainlove
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you"
+}
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you"
+}
+
+<> 2022-07-25T151654.400.json
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": "1",
+    "message": "I love you"
+}
+
+<> 2022-07-24T003732.400.json
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "John"
+}
+
+<> 2022-07-24T003006.400.json
+
+###
+

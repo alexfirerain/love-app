@@ -1,0 +1,17 @@
+###
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you"
+}
+
+###
+POST http://localhost:7777/plainlove
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you"
+}
