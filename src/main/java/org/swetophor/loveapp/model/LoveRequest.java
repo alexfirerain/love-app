@@ -8,4 +8,5 @@ import lombok.Getter;
 public class LoveRequest {
     private int id;
     private String message;
+    private Present present;
 }

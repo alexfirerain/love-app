@@ -20,7 +20,6 @@ public class LoveController {
         return loveService.loveBack(loveRequest);
     }
     @PostMapping("/plainlove")
-
     public String loveJustBack(String loveRequest) {
         System.out.println(loveRequest);
         return loveRequest;

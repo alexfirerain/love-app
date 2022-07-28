@@ -9,6 +9,7 @@ public class LoveService {
 
     public LoveResponse loveBack(LoveRequest loveRequest) {
         return new LoveResponse(loveRequest.getId(),
-                loveRequest.getMessage() + " too");
+                loveRequest.getMessage() + " too"
+                        + ". I appreciate your " + loveRequest.getPresent().getMatter() + " so much!");
     }
 }

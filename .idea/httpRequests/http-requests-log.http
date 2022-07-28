@@ -1,3 +1,97 @@
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you",
+    "present": {
+      "id": 17,
+      "matter": "Magic box",
+      "description": "Announce of loving",
+      "bestBefore": "03/25"
+    }
+}
+
+<> 2022-07-28T135816.500.json
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you",
+    "present": {
+      "id": 17,
+      "matter": "Magic box",
+      "description": "Announce of loving",
+      "bestBefore": "03/25"
+    }
+}
+
+<> 2022-07-28T135436.500.json
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you",
+    "present": {
+      "id": 17,
+      "matter": "Magic box",
+      "description": "Announce of loving"
+    }
+}
+
+<> 2022-07-28T122522.200.json
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you",
+    "present": {
+      "id": 17,
+      "text": "I love you darling",
+      "description": "Anonce of loving"
+    }
+}
+
+<> 2022-07-28T012653.200.json
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you"
+}
+
+<> 2022-07-26T170815.200.json
+
+###
+
+POST http://localhost:7777/love
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "I love you"
+}
+
+<> 2022-07-26T170739.200.json
+
+###
+
 POST http://localhost:7777/plainlove
 Content-Type: application/json
 

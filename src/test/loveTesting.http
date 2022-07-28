@@ -4,7 +4,13 @@ Content-Type: application/json
 
 {
     "id": 1,
-    "message": "I love you"
+    "message": "I love you",
+    "present": {
+      "id": 17,
+      "matter": "Magic box",
+      "description": "Announce of loving",
+      "bestBefore": "03/25"
+    }
 }
 
 ###
